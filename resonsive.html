@@ -1,0 +1,56 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive</title>
+</head>
+<style>
+    .head{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+    }
+    .text-1{
+        color:rgb(8, 12, 12);
+        padding: 10px;
+        margin: 10px;
+        background-color: burlywood;
+    }
+  .text-2{
+        color:rgb(29, 37, 37);
+        padding : 10px;
+        margin: 10px;
+        background-color: #4fce4f;
+    } 
+    .text-3{
+        color:rgb(10, 20, 20);
+        padding : 10px;
+        margin: 10px;
+        background-color: plum;
+    } 
+    .text-4{
+        color:rgb(20, 27, 27);
+        padding : 10px;
+        margin: 10px;
+        background-color: rgb(233, 236, 24);
+    } 
+  
+    @media(max-width:5p){
+        .head{
+            flex-direction: column;
+        }
+    }
+</style>
+<body>
+    <div class="head">
+    <div class="text-1">my name is komal singh</div>
+    <div class="text-2">i am from prayagraj</div>
+    <div class="text-3">currently i am pursuing my btech from united collage of engineering and research,allahabad</div>
+    <div class="text-4">my skills are html5,css3,javascript,bootstrap,and cprograming</div>
+</div>
+</body>
+</html>
